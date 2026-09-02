@@ -1,0 +1,19 @@
+nisl19@nisl19-V50t-Gen-2-13IOB:~/Shrejal$ 
+nisl19@nisl19-V50t-Gen-2-13IOB:~/Shrejal$ vi Dijkstra_algorithm.cpp
+nisl19@nisl19-V50t-Gen-2-13IOB:~/Shrejal$ g++ Dijkstra_algorithm.cpp -o Dijkstra_algoritm
+nisl19@nisl19-V50t-Gen-2-13IOB:~/Shrejal$ ./Dijkstra_algoritm
+Enter number of intersections (vertices): 5
+Enter number of roads (edges): 6
+Enter roads (u v time):
+0 2 1
+0 1 4
+2 1 2
+2 3 5
+1 3 1
+3 4 3
+Enter ambulance start location: 0
+Enter number of hospitals: 2 1 3 4
+Enter hospital nodes: 
+Nearest hospital is at node 1 with travel time 3 minutes.
+nisl19@nisl19-V50t-Gen-2-13IOB:~/Shrejal$ 
+

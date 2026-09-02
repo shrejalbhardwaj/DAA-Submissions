@@ -1,0 +1,63 @@
+isl19@nisl19-V50t-Gen-2-13IOB:~/Shrejal$ ^C
+nisl19@nisl19-V50t-Gen-2-13IOB:~/Shrejal$ vi Knapsack_problem.cpp
+nisl19@nisl19-V50t-Gen-2-13IOB:~/Shrejal$ g++ Knapsack_problem.cpp -o Knapsack_problem
+nisl19@nisl19-V50t-Gen-2-13IOB:~/Shrejal$ ./Knapsack_problem
+Enter number of relief items: 5
+
+Item 1:
+Name: water
+Weight (kg): 20
+Utility Value: 10
+Is it divisible? (1 = Yes, 0 = No): 0
+Priority (1 = High, 2 = Medium, 3 = Low): 2
+
+Item 2:
+Name: food
+Weight (kg): 30
+Utility Value: 5
+Is it divisible? (1 = Yes, 0 = No): 1
+Priority (1 = High, 2 = Medium, 3 = Low): 2
+
+Item 3:
+Name: cloths
+Weight (kg): 40
+Utility Value: 20
+Is it divisible? (1 = Yes, 0 = No): 1
+Priority (1 = High, 2 = Medium, 3 = Low): 3
+
+Item 4:
+Name: medicene
+Weight (kg): 8
+Utility Value: 8
+Is it divisible? (1 = Yes, 0 = No): 0
+Priority (1 = High, 2 = Medium, 3 = Low): 1
+
+Item 5:
+Name: other
+Weight (kg): 5
+Utility Value: 5
+Is it divisible? (1 = Yes, 0 = No): 1
+Priority (1 = High, 2 = Medium, 3 = Low): 3
+
+Enter maximum weight capacity of boat: 60
+
+Sorted Items:
+Item           Weight    Value     Priority  Value/Weight   Type           
+medicene       8         8         1         1.00           Indivisible    
+water          20.00     10.00     2         0.50           Indivisible    
+food           30.00     5.00      2         0.17           Divisible      
+other          5.00      5.00      3         1.00           Divisible      
+cloths         40.00     20.00     3         0.50           Divisible      
+
+Items selected for transport:
+medicene -> 8.00 kg, Utility = 8.00
+water -> 20.00 kg, Utility = 10.00
+food -> 30.00 kg, Utility = 5.00
+other -> 2.00 kg, Utility = 2.00
+
+===== Final Report =====
+Total weight carried: 60.00 kg
+Total utility value: 25.00 units
+nisl19@nisl19-V50t-Gen-2-13IOB:~/Shrejal$ 
+
+

@@ -1,0 +1,20 @@
+nisl19@nisl19-V50t-Gen-2-13IOB:~$ mkdir Shrejal
+nisl19@nisl19-V50t-Gen-2-13IOB:~$ cd Shrejal
+nisl19@nisl19-V50t-Gen-2-13IOB:~/Shrejal$ vi merge_sort.cpp
+nisl19@nisl19-V50t-Gen-2-13IOB:~/Shrejal$ g++ merge_sort.cpp -o merge_sort
+nisl19@nisl19-V50t-Gen-2-13IOB:~/Shrejal$ ./merge_sort
+Enter number of customer orders: 5
+Enter timestamps (HH:MM):
+09:45
+01:30
+2:24
+05:50
+07:30
+
+Before Sorting:
+09:45 01:30 2:24 05:50 07:30 
+
+After Sorting:
+01:30 05:50 07:30 09:45 2:24 
+nisl19@nisl19-V50t-Gen-2-13IOB:~/Shrejal$ ^C
+nisl19@nisl19-V50t-Gen-2-13IOB:~/Shrejal$ 
